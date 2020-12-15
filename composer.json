@@ -1,24 +1,24 @@
 {
-    "name": "jrm2k6/cloudder",
+    "name": "uyoobonga/cloudder",
     "description": "Cloudinary API wrapper for Laravel",
-    "keywords": ["laravel", "laravel4", "cloudinary", "api", "image", "upload"],
-    "homepage": "https://github.com/jrm2k6/cloudder",
+    "keywords": ["laravel", "laravel7",  "laravel8", "cloudinary", "api", "image", "upload"],
+    "homepage": "https://github.com/uyoobonga/cloudder",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jeremy Dagorn",
-            "email": "jeremy.dagorn@gmail.com"
+            "name": "Uyo-obong A.",
+            "email": "uyoobonga@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.3.0",
-        "cloudinary/cloudinary_php": ">=1.1"
+        "php": ">=7.2",
+        "cloudinary/cloudinary_php": ">=2.0"
     },
     "require-dev": {
-        "laravel/framework": ">=5.0",
-        "phpunit/phpunit": "4.*",
-        "mockery/mockery": "0.9.*"
+        "laravel/framework": "^7.0|^8.0",
+        "phpunit/phpunit": "8.5|^9.0",
+        "mockery/mockery": "1.4.*"
     },
     "autoload": {
         "psr-0": {

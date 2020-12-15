@@ -1,9 +1,8 @@
-# Cloudder - Cloudinary wrapper for Laravel 5 / Lumen
+# Cloudder - Cloudinary wrapper for Laravel  / Lumen
 
 
-#### This project is not actively maintained. I might be slow to answer, as you can tell by looking at the issues. I have moved to some new projects, not in the PHP ecosystem. You can always reach out to me through my email.
+#### This project was fork from jrm2k6/cloudder in order to support latest version of laravel. You are free to contribute to the project.
 
-#### If you fork it on publish it as your own, it might be nice to credit the original author at https://github.com/teepluss/laravel4-cloudinary.
 
 [![Build Status](http://img.shields.io/travis/jrm2k6/cloudder/master.svg?style=flat-square)](https://travis-ci.org/jrm2k6/cloudder)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://www.opensource.org/licenses/MIT)
@@ -16,9 +15,7 @@
 
 ## Installation
 
-`composer require jrm2k6/cloudder`
-
-For people still using Laravel 4.2: `composer require jrm2k6/cloudder:0.1.*` and check the branch l4 for the installation instructions.
+`composer require uyoobonga/cloudder`
 
 
 ## Configuration
@@ -230,6 +227,3 @@ returns a `download url` for the newly created archive on Cloudinary.
 
 `phpunit`
 
-## Example
-
-You can find a working example in the repo [cloudder-l5-example](https://github.com/jrm2k6/cloudder-l5-sample-project)
